@@ -27,6 +27,6 @@
     "packages/*"
   ],
   "lint-staged": {
-    "*.format": "prettier --write"
+    "*": "prettier --write"
   }
 }
