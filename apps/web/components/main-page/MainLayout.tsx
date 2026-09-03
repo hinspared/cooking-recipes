@@ -1,39 +1,39 @@
-"use client"
+'use client';
 
-import { BookOpen } from "lucide-react"
-import { RecipeCard } from "./RecipeCard"
-import Image from "next/image"
+import { BookOpen } from 'lucide-react';
+import { RecipeCard } from './RecipeCard';
+import Image from 'next/image';
 
 // Mock Data for Recipes
 const RECIPES = [
   {
     id: 1,
-    title: "Creamy Tuscan Garlic Salmon",
-    time: "30 mins",
+    title: 'Creamy Tuscan Garlic Salmon',
+    time: '30 mins',
     rating: 4.9,
-    category: "Dinner",
-    image: "https://picsum.photos/200",
-    chef: "Elena Rostova",
+    category: 'Dinner',
+    image: 'https://picsum.photos/200',
+    chef: 'Elena Rostova',
   },
   {
     id: 2,
-    title: "15-Minute Chili Garlic Noodles",
-    time: "15 mins",
+    title: '15-Minute Chili Garlic Noodles',
+    time: '15 mins',
     rating: 4.7,
-    category: "Quick Lunch",
-    image: "https://picsum.photos/200",
-    chef: "Danielle Lee",
+    category: 'Quick Lunch',
+    image: 'https://picsum.photos/200',
+    chef: 'Danielle Lee',
   },
   {
     id: 3,
-    title: "Fluffy Matcha Soufflé Pancakes",
-    time: "25 mins",
+    title: 'Fluffy Matcha Soufflé Pancakes',
+    time: '25 mins',
     rating: 5.0,
-    category: "Breakfast",
-    image: "https://picsum.photos/200",
-    chef: "Kenji Sato",
+    category: 'Breakfast',
+    image: 'https://picsum.photos/200',
+    chef: 'Kenji Sato',
   },
-]
+];
 
 export const MainLayout = () => {
   return (
@@ -85,5 +85,5 @@ export const MainLayout = () => {
         ))}
       </section>
     </main>
-  )
-}
+  );
+};
